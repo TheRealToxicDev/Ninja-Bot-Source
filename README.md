@@ -1,7 +1,7 @@
-**Attention:** 
-I will do my best to help out if your having issues hosting.
+# Attention:
+**I will do my best to help out if your having issues hosting.**
 
-# Ninja Bot
+# ★ Ninja ★
 Written in discord.js of course 
 
 If you find any bugs please make a issue so i can look into it and fix it
