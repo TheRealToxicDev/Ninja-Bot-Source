@@ -26,9 +26,10 @@ Now you need to create a new app at https://discordapp.com/developers/applicatio
 
 Now you want to go back to bot go to token and click token: click to reveal this will show you the bot token now edit config.json in assets where it says, "token": "Your token" with your bot token once done click save.
 
-**Additionally for the token you can use "client.lgoin("YOUR_TOKEN_HERE")
+**Additionally for the token you can use 
+- "client.lgoin("YOUR_TOKEN_HERE")
 OR
-process.env**
+- process.env**
 
 
 Now you have done that you will need NodeJs installed can get it from https://nodejs.org/en/ so you can start running the bot.
@@ -72,7 +73,7 @@ If you want to run this bot while not having the console or terminal open, use n
 # Recommended Paid Hosts
 - Google Cloud
 - Amazon
--Digital Ocean
+- Digital Ocean
 
 # COPYRIGHT WARNING
 You are free to Edit **ANY AND ALL** Copyright Notices in the bots Embeds etc but.
