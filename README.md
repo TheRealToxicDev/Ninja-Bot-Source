@@ -27,8 +27,11 @@ Now you need to create a new app at https://discordapp.com/developers/applicatio
 Now you want to go back to bot go to token and click token: click to reveal this will show you the bot token now edit config.json in assets where it says, "token": "Your token" with your bot token once done click save.
 
 Additionally for the token you can use 
+
 - "client.lgoin("YOUR_TOKEN_HERE")
+
 OR
+
 - process.env
 
 
