@@ -7,9 +7,10 @@ Written in discord.js of course
 # ★ Ninja AI ★
 > Currently unavailable, Updates will be available soon module has been Deprecated untill then.
 
-
+# Bug Reports
 If you find any bugs please make a issue so i can look into it and fix it
 
+# Credits
 Made By:
 - ☣ Tσxιƈ Dҽʋ ☣#7308 (me)
 
