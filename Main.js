@@ -413,21 +413,3 @@ client.on("message", async (message) => {
 });
 
 client.login(process.env.TOKEN);
-
-/*
-KEEP ALIVE SCRIPT FOR USERS WHO WANT TO HOST WITH GLITCH
-REPLACE "PROJECT_NAME" WITH YOUR PROJECT NAME.
-lEAVE IT COMMENTED TO DISABLE, UN-COMMENT TO ENABLE.
-*/
-
-/*const http = require('http');
-const express = require('express');
-const app = express();
-app.get("/", (request, response) => {
-    response.sendStatus(200);
-});
-
-app.listen(process.env.PORT);
-setInterval(() => {
-    http.get('https://PROJECT_NAME.glitch.me');
-}, 280000); */
