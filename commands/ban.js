@@ -21,7 +21,7 @@ exports.run = (client, message, args) => {
   let reason = args.slice(1).join(' ') || `Moderator didn't give a reason.`;
   let modlog = message.guild.channels.find(channel => channel.name == row.logschannel);
   if (!message.guild.member(user).bannable) return message.reply(' I cant ban that member. This may be happening because they are above me. :x:');
-  message.guild.ban(user, 20);
+  message.guild.ban(user, 7);
   message.channel.send("***The User has been successfully banned! :white_check_mark:***")
   sql.run(`UPDATE scores SET casenumber = ${row.casenumber + 1} WHERE guildId = ${message.guild.id}`);
 
