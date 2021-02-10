@@ -1,6 +1,6 @@
 {
   "name": "ninja-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Moderation bot",
   "main": "Main.js",
   "scripts": {
