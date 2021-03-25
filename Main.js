@@ -20,10 +20,6 @@ const configs = require("./assets/jsons/config.json")
 require('./music.js')
 const timers = require("timers");
 const time1 = configs.activitytime;
-
-require ('./web/webServer.js')
-
-require ('./assets/AISystem/NinjaAI.js');
  
 client.on("ready", async () => {
   //console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
