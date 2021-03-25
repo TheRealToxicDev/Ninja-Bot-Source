@@ -109,7 +109,7 @@ client.on("message", async (message) => {
 					safeSearch: 'strict',
 					order: 'relevance',
 					videoDuration: 'medium',
-					key: "" // Your Google API Key goes here.
+					key: process.env.YOUTUBE // Your Google API Key goes here.
 				});
 			if (!body.items.length) return message.channel.send('No results found for ' + query + ".");
 			let url = `https://www.youtube.com/watch?v=${body.items[0].id.videoId}`
