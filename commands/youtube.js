@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
                 type: 'video',
                 maxResults: 1,
                 q: query,
-                key: "GOOGLEKEY"
+                key: process.env.YOUTUBE
             });
         if (!body.items.length) return message.channel.send('No results found for ' + query + ".");
         const embed = new Discord.RichEmbed()
