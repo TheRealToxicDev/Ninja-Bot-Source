@@ -1,8 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const sql = require("sqlite");
-const { Set } = require("discord-set");
-const set = new Set();
 sql.open("./assets/guildsettings.sqlite");
 
 module.exports = async (client, message, guild) => {
